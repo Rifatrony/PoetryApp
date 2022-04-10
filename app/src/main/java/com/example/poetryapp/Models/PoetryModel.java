@@ -5,9 +5,6 @@ public class PoetryModel {
     int id;
     String poetry_data, poet_name, date_time;
 
-    public PoetryModel() {
-    }
-
     public PoetryModel(int id, String poetry_data, String poet_name, String date_time) {
         this.id = id;
         this.poetry_data = poetry_data;
